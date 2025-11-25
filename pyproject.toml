@@ -8,7 +8,7 @@ classifiers = [
   "Programming Language :: Python :: 3",
   "Operating System :: OS Independent",
 ]
-dependencies = ["pushikoo-interface", "requests", "loguru"]
+dependencies = ["pushikoo-interface>=0.3.0", "requests", "loguru"]
 description = "TestProcesser for pushikoo-adapter development as a template."
 name = "pushikoo-adapter-testprocesser"
 readme = "README.md"
