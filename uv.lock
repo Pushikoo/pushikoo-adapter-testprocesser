@@ -197,7 +197,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "loguru" },
-    { name = "pushikoo-interface" },
+    { name = "pushikoo-interface", specifier = ">=0.3.0" },
     { name = "pytest", marker = "extra == 'dev'" },
     { name = "requests" },
     { name = "ruff", marker = "extra == 'dev'" },
@@ -206,14 +206,14 @@ provides-extras = ["dev"]
 
 [[package]]
 name = "pushikoo-interface"
-version = "0.2.0"
+version = "0.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c4/06/4297b98a86477c2aa210114137a966f77d15aeb55f580bf069db7c86043f/pushikoo_interface-0.2.0.tar.gz", hash = "sha256:dadc4d9603299a5e127d4c9867cc3821bb37e59358e07d8d6dc287217aafac35", size = 42711, upload-time = "2025-11-17T18:01:31.629Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9c/01/9f02fdba15ab423e2b89b380ae088a0993216b766709db78e202acfdb5a6/pushikoo_interface-0.3.0.tar.gz", hash = "sha256:4ace9310d3ac403210aa38ef58a92f8ce8e97cad316689f490ffccb8db17b378", size = 43314, upload-time = "2025-11-25T14:34:30.098Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c6/17/1be7239282a21c50f880f68297c0d60af8640546db571ed4babf8ad9a6eb/pushikoo_interface-0.2.0-py3-none-any.whl", hash = "sha256:02f48e0ed3e7867e89f7b45f1c3bbde89a688879f84b5af303c97cfa6eaa7b5b", size = 20113, upload-time = "2025-11-17T18:01:30.319Z" },
+    { url = "https://files.pythonhosted.org/packages/a4/24/c26903bbce206f8bfca724b036a277f4889372d114dd195113d89c1c3be0/pushikoo_interface-0.3.0-py3-none-any.whl", hash = "sha256:97db0adfa9193cb7f11b18ff961df11aa50cf358d4cb919388aa4f68d87f424d", size = 20757, upload-time = "2025-11-25T14:34:28.727Z" },
 ]
 
 [[package]]
